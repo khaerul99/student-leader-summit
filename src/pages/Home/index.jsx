@@ -19,7 +19,7 @@ function Home() {
   return (
     <Layout showModal={showModal} setShowModal={setShowModal}>
       <main className="bg-[#191919]">
-        <div className=" px-10 flex justify-center">
+        <div id="home" className=" px-10 flex justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 py-32 relative ">
             <div className="absolute bg-[#FF8025] w-[300px] h-[300px] rounded-full opacity-50 bg-opacity-30 blur-2xl top-5 z-0 -left-5" />
             <div className="absolute bg-[#EE2F37] w-[300px] h-[300px] rounded-full bg-opacity-30 blur-2xl bottom-5 z-0 right-5" />
@@ -87,8 +87,8 @@ function Home() {
                 <p>Osis Jawa Timur</p>
               </div>
               <div className="flex flex-col items-center text-white">
-                <h2 className="text-2xl font-extrabold">250+</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h2 className="text-2xl font-extrabold">1500+</h2>
+                <p>Pelajar cerdas</p>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@ function Home() {
           <div className="  py-20 text-white">
             <p>
               East Java Student Leader Summit adalah sebuah program unik yang
-              mengumpulkan 1.500 pelajar cerdas dari seluruh Jawa Barat, dengan
+              mengumpulkan 1.500 pelajar cerdas dari seluruh Jawa Timur, dengan
               tujuan memberikan mereka pelatihan untuk meningkatkan rasa percaya
               diri, keterampilan kepemimpinan, serta menjalin ikatan
               kekeluargaan yang erat. Acara ini juga menjadi platform yang
@@ -279,7 +279,7 @@ function Home() {
           <div className="absolute bg-[#FF8025] w-[300px] h-[300px] top-[450px] left-[120px] lg:w-[500px] lg:h-[500px] rounded-full  bg-opacity-30 blur-2xl lg:top-[190px] z-0 lg:left-[360px]" />
           <div className="absolute bg-[#EE2F37]  w-[300px] h-[300px] top-[450px] left-[50px] lg:w-[300px] lg:h-[300px] rounded-full  bg-opacity-30 blur-2xl lg:top-[190px] z-0 lg:left-[360px]" />
 
-          <div className="flex justify-center py-20">
+          <div id="speakers"  className="flex justify-center py-20">
             <h1 className="text-white font-bold text-2xl">Featured Speaker</h1>
           </div>
           <div className="grid grid-cols-1">
@@ -325,7 +325,7 @@ function Home() {
         <div className="py-20 px-10  relative ">
           <div className="absolute bg-[#FF8025] w-[200px] h-[200px] rounded-full bg-opacity-30 blur-2xl bottom-10 z-0 right-24" />
 
-          <div className="flex justify-center py-20">
+          <div id="ketentuan"  className="flex justify-center py-20">
             <h1 className="text-white font-bold text-2xl">
               Syarat dan ketentuan
             </h1>
@@ -401,8 +401,8 @@ function Home() {
           </div>
         </div>
 
-        <div className="py-20 px-10  ">
-          <div id="faq" className="py-10 ">
+        <div  id="faq" className="py-20 px-10  ">
+          <div className="py-10 ">
             <h1 className="text-white font-bold text-2xl">
               Frequently asked questions
             </h1>
@@ -439,8 +439,7 @@ function Home() {
               <div className="collapse-content">
                 <p>
                   Silahkan klik daftar yang ada di navbar atau klik daftar
-                  sekarang yang ada di tampilan awal, ketikak muncul dropdown
-                  pilih tombol/button yang berwarna
+                  sekarang yang ada di tampilan awal
                 </p>
               </div>
             </div>

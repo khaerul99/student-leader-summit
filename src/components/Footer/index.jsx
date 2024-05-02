@@ -17,7 +17,7 @@ function Footer() {
                             <Link to={'https://wa.me/6281246486630'} className='hover:text-blue-400'>+62 812-4648-6630 </Link>
                             <Link to={'https://wa.me/6282141074046'} className='hover:text-blue-400'>+62 821-4107-4046 </Link>
                             <Link to={'https://wa.me/6282237731413'} className='hover:text-blue-400'>+62 822-3773-1413</Link>
-                            <Link to={'https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=forumosisjabar@gmail.com'} className='hover:text-blue-400'>forumosisjabar@gmail.com  </Link>
+                            <Link to={'https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=forumosisjabar@gmail.com'} className='hover:text-blue-400'>forumosisjatim@gmail.com  </Link>
                         </div>
                     </div>
                 </div>
