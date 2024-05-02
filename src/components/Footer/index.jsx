@@ -6,10 +6,18 @@ function Footer() {
         <>
             <div className='px-[20px] md:px-[80px] py-[40px] bg-[#191919]'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2'>
-                    <div className='p-5'>
-                        <div className='w-[47px] h-[47px]'>
-                            <img src="/assets/logo/LOGO1.png" alt="" className='w-full h-full' />
+                    <div className='flex justify-center  bg-gray-50 bg-opacity-20 backdrop-blur-sm'>
+                    <div className='p-5 grid  grid-cols-1 lg:grid-cols-3 items-center lg:gap-20 '>
+                        <div className='w-[100px] h-[100px] '>
+                            <img src="/assets/logo/LOGO1.png" alt="" className='w-full h-full object-contain' />
                         </div>
+                        <div className='w-[100px] h-[100px] '>
+                            <img src="/assets/logo/LOGO_IGGS.png" alt="" className='w-full h-full object-contain' />
+                        </div>
+                        <div className='w-[100px] h-[100px] '>
+                            <img src="/assets/logo/Logo_TUS.png" alt="" className='w-full h-full object-contain' />
+                        </div>
+                    </div>
                     </div>
                     <div className='p-5 pr-2'>
                         <div className='flex flex-col gap-5 text-white'>
@@ -17,7 +25,6 @@ function Footer() {
                             <Link to={'https://wa.me/6281246486630'} className='hover:text-blue-400'>+62 812-4648-6630 </Link>
                             <Link to={'https://wa.me/6282141074046'} className='hover:text-blue-400'>+62 821-4107-4046 </Link>
                             <Link to={'https://wa.me/6282237731413'} className='hover:text-blue-400'>+62 822-3773-1413</Link>
-                            <Link to={'https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=forumosisjabar@gmail.com'} className='hover:text-blue-400'>forumosisjatim@gmail.com  </Link>
                         </div>
                     </div>
                 </div>

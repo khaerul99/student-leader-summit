@@ -75,7 +75,7 @@ function Home() {
           </div>
         </div>
 
-        <div className=" py-20">
+        {/* <div className=" py-20">
           <div className=" bg-gray-50 bg-opacity-5 backdrop-blur-lg py-10">
             <div className="grid grid-cols-1 gap-10 lg:gap-0 lg:grid-cols-3">
               <div className="flex flex-col items-center text-white">
@@ -92,7 +92,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="px-10 py-20  relative">
           <div className="absolute bg-[#FF8025] w-[100px] h-[100px] rounded-full opacity-50 bg-opacity-30 blur-2xl top-22 z-0 left-24" />
@@ -166,13 +166,7 @@ function Home() {
           </div>
           <div className="  py-20 text-white">
             <p>
-              East Java Student Leader Summit adalah sebuah program unik yang
-              mengumpulkan 1.500 pelajar cerdas dari seluruh Jawa Timur, dengan
-              tujuan memberikan mereka pelatihan untuk meningkatkan rasa percaya
-              diri, keterampilan kepemimpinan, serta menjalin ikatan
-              kekeluargaan yang erat. Acara ini juga menjadi platform yang
-              sempurna bagi mereka untuk saling berbagi pengalaman, sehingga
-              mereka bisa siap menghadapi perubahan zaman dengan bijak.
+            East Java Student Leader Summit adalah sebuah program unik yang mengumpulkan pelajar Se-Jawa Timur seperti yang sebelumnya sudah dilakukan di Jawa Barat  bersama 1.500 pelajar dari seluruh Jawa Barat antara Forum OSIS Jawa Barat x Telkom University, kini hadir untuk Pelajar Jawa Timur dengan tujuan memberikan mereka pelatihan untuk meningkatkan rasa percaya diri, keterampilan kepemimpinan, serta menjalin ikatan kekeluargaan yang erat. Acara ini juga menjadi platform yang sempurna bagi mereka untuk saling berbagi pengalaman, sehingga mereka bisa siap menghadapi perubahan zaman dengan bijak.
             </p>{" "}
             <br />
             <p>
@@ -346,32 +340,10 @@ function Home() {
                   Wajib follow media sosial Instagram <br />
                   (@medpel.id) <br />
                   (@iggscholarship) <br />
-                  (@smbtelkom) <br />
+                  (@smbtelkomsurabaya) <br />
                 </li>
                 <li>
-                  Peserta diwajibkan untuk mengirimkan bukti follow instagram ke
-                  Narahubung <br />{" "}
-                  <Link
-                    to={"https://wa.me/6281246486630"}
-                    className="hover:text-[#FF8025]"
-                  >
-                    +62 812-4648-6630 (Admin 1)
-                  </Link>{" "}
-                  <br />{" "}
-                  <Link
-                    to={"https://wa.me/6282141074046"}
-                    className="hover:text-[#FF8025]"
-                  >
-                    {" "}
-                    +62 821-4107-4046 (Admin 2)
-                  </Link>{" "}
-                  <br />{" "}
-                  <Link
-                    to={"https://wa.me/6282237731413"}
-                    className="hover:text-[#FF8025]"
-                  >
-                    +62 822-3773-1413 (Admin 3)
-                  </Link>
+                wajib utk konfirmasi kehadiran,ga usah ngirim bukti nya
                 </li>
                 <li>Menggunakan PSAS seragam sekolah.</li>
                 <li>Peserta tidak di pungut biaya apapun.</li>
@@ -469,7 +441,7 @@ function Home() {
                 Closing pendaftaran kakpan min?
               </div>
               <div className="collapse-content">
-                <p>15 mei 2024</p>
+                <p>Pendaftaran dapat sewaktu-waktu ditutup jika telah memenuhi kuota. </p>
               </div>
             </div>
             <div className="collapse collapse-arrow bg-base-200">
