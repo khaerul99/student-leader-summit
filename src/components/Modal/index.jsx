@@ -6,7 +6,7 @@ function Modal({ showModal, setShowModal }) {
 
   return (
     <div
-      className={`fixed flex justify-center items-center h-screen w-[1280px] z-[99] ${
+      className={`fixed flex justify-center items-center h-screen w-full lg:w-[1280px] z-[99] ${
         showModal ? "top-0" : "-top-[700px]"
       } transition-all duration-300`}
     >

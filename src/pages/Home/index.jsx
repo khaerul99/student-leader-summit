@@ -97,7 +97,7 @@ function Home() {
           </div>
 
           <div className="flex justify-center relative">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 overflow-hidden">
               <div
                 className="border border-[#FF8025] p-4 lg:w-[400px] rounded-lg"
                 data-aos="fade-right"
