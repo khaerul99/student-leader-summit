@@ -184,7 +184,7 @@ function Home() {
           <div className="absolute bg-[#EE2F37] w-[300px] h-[300px] rounded-full bg-opacity-30 blur-2xl bottom-5 z-0 right-5" />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 z-50 relative">
             <div className="flex gap-4 justify-center">
-              <div className="flex gap-4 md:h-[464px] md:w-[525px]">
+              <div className="flex gap-4 md:h-[464px] md:w-[525px] overflow-hidden">
                 <div
                   className="h-[200px] w-auto md:h-[384px] md:w-[162px] mt-[80px] rounded-md overflow-hidden"
                   data-aos="fade-right"
