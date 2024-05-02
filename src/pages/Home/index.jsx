@@ -275,9 +275,9 @@ function Home() {
           </div>
         </div>
 
-        <div className="py-20 px-10 relative">
-          <div className="absolute bg-[#FF8025] w-[500px] h-[500px] rounded-full  bg-opacity-30 blur-2xl top-[190px] z-0 left-[360px]" />
-          <div className="absolute bg-[#EE2F37] w-[300px] h-[300px] rounded-full  bg-opacity-30 blur-2xl top-[190px] z-0 left-[360px]" />
+        <div className="py-20 px-10 relative overflow-hidden">
+          <div className="absolute bg-[#FF8025] w-[300px] h-[300px] top-[450px] left-[120px] lg:w-[500px] lg:h-[500px] rounded-full  bg-opacity-30 blur-2xl lg:top-[190px] z-0 lg:left-[360px]" />
+          <div className="absolute bg-[#EE2F37]  w-[300px] h-[300px] top-[450px] left-[50px] lg:w-[300px] lg:h-[300px] rounded-full  bg-opacity-30 blur-2xl lg:top-[190px] z-0 lg:left-[360px]" />
 
           <div className="flex justify-center py-20">
             <h1 className="text-white font-bold text-2xl">Featured Speaker</h1>
@@ -330,7 +330,7 @@ function Home() {
               Syarat dan ketentuan
             </h1>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 ">
             <div className="flex justify-center">
               <div className="lg:h-[450px] lg:w-[380px]">
                 <img
@@ -340,7 +340,7 @@ function Home() {
                 />
               </div>
             </div>
-            <div className="flex justify-center text-white">
+            <div className="flex justify-center text-white relative">
               <ul className="list-decimal pl-5">
                 <li>
                   Wajib follow media sosial Instagram <br />
