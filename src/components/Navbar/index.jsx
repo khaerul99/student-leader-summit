@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar({showModal ,setShowModal}) {
   return (
@@ -28,7 +29,10 @@ function Navbar({showModal ,setShowModal}) {
     </ul>
   </div>
   <div className="navbar-end">
-    <button  onClick={() => setShowModal(!showModal)} className="btn  text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]">Button</button>
+    <Link to={"https://www.loket.com/event/east-java-student-leader-summit_Iibc"}>
+    <button  className="btn  text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]">Button</button>
+    </Link>
+   
   </div>
 </div>
     </>

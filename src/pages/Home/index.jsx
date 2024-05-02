@@ -24,11 +24,11 @@ function Home() {
             <div className="absolute bg-[#FF8025] w-[300px] h-[300px] rounded-full opacity-50 bg-opacity-30 blur-2xl top-5 z-0 -left-5" />
             <div className="absolute bg-[#EE2F37] w-[300px] h-[300px] rounded-full bg-opacity-30 blur-2xl bottom-5 z-0 right-5" />
             <div className="flex lg:hidden justify-center overflow-hidden relative ">
-              <div className="lg:h-[400px] w-[400px] pb-10">
+              <div className=" lg:h-[400px] lg:w-[400px] pb-10">
                 <img
                   src="assets/person/image1.png"
                   alt=""
-                  className=" h-full scale-125 object-cover "
+                  className=" h-full w-full lg:scale-125 object-cover "
                 />
               </div>
             </div>
@@ -52,21 +52,25 @@ function Home() {
                   </p>
                 </div>
                 <div>
-                  <button
-                    onClick={() => setShowModal(!showModal)}
-                    className="btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]"
-                  >
-                    Daftar sekarang
-                  </button>
+                  <Link to={"https://www.loket.com/event/east-java-student-leader-summit_Iibc"}>
+                    <button
+                      // onClick={() => setShowModal(!showModal)}
+                      className="btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]"
+                    >
+                      Daftar sekarang
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="hidden lg:flex justify-center overflow-hidden relative z-999">
-              <img
-                src="assets/person/image1.png"
-                alt=""
-                className="lg:h-[400px] lg:scale-125 "
-              />
+            <div className="hidden lg:flex justify-center items-center overflow-hidden relative z-999">
+              <div className="lg:h-[400px] ">
+                <img
+                  src="assets/person/image1.png"
+                  alt=""
+                  className="h-full scale-125"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -244,8 +248,9 @@ function Home() {
                 </p>
               </div>
               <div className="mt-[24px]">
+                <Link to={"https://www.loket.com/event/east-java-student-leader-summit_Iibc"}>
                 <button
-                  onClick={() => setShowModal(!showModal)}
+                //   onClick={() => setShowModal(!showModal)}
                   className="px-[24px] py-[12px] gap-[24px]btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025] rounded-lg h-auto hover:shadow-[#0284C7] shadow-sm flex justify-between"
                 >
                   <label className="text-white">Ikuti Event</label>
@@ -264,6 +269,7 @@ function Home() {
                     />
                   </svg>
                 </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -407,18 +413,18 @@ function Home() {
               <div className="collapse-content">
                 <ul className="list-disc pl-4">
                   <li>
-                    Mendapat E-sertifikat WJSLS dan akan menjadi penilaian lebih
-                    ketika kamu mendaftarkan diri sebagai calon pengurus Forum
-                    OSIS Jawa Timur
+                    E-Certificate untuk point nilai seleksi Beasiswa Indonesian
+                    Gold Generation Scholarship khusus Jawa Timur.
                   </li>
                   <li>
-                    Mendapatkan pengalaman & relasi pelajar Jawa Barat karena
-                    akan bertemu dengan 1.500+ pelajar se-Jawa Timur
+                    Berkesempatan mendapatkan voucher pin pendaftaran kuliah di
+                    Telkom University
                   </li>
                   <li>
-                    Menjadi peluang untuk kamu untuk mengetahui organisasi luar
-                    sekolah dalam mengembangkan minat bakat
+                    Ilmu tips & trick seputar karir dari pembicara nasional
                   </li>
+                  <li>Goodiebag Merchandise</li>
+                  <li>Snack</li>
                 </ul>
               </div>
             </div>
@@ -429,9 +435,9 @@ function Home() {
               </div>
               <div className="collapse-content">
                 <p>
-                  Silahkan ke menu / tampilan tiket price lalu klik tombol pesan
-                  sekarang, setelah memesan klik tombol konfirmasi dan
-                  konfirmasi ke admin bahwa anda telah memesan tiket
+                  Silahkan klik daftar yang ada di navbar atau klik daftar
+                  sekarang yang ada di tampilan awal, ketikak muncul dropdown
+                  pilih tombol/button yang berwarna
                 </p>
               </div>
             </div>
@@ -449,26 +455,10 @@ function Home() {
             <div className="collapse collapse-arrow bg-base-200">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title text-xl font-medium">
-                Pemberangkatan ke lokasi acara boleh sendiri/nggak? Kalau mau
-                bareng, konfirmasi kesiapa?
-              </div>
-              <div className="collapse-content">
-                <p>
-                  Boleh. Kalau mau bareng, nanti bisa melakukan konfirmasi
-                  kepada Contact Person sesuai Wilayah teman teman. Untuk teknis
-                  lebih lanjut kamu akan dimasukan ke dalam group pemberangkatan
-                  bersama wilayah. dan biaya pemberangkatan akan ditanggung oleh
-                  masing masing peserta
-                </p>
-              </div>
-            </div>
-            <div className="collapse collapse-arrow bg-base-200">
-              <input type="radio" name="my-accordion-2" />
-              <div className="collapse-title text-xl font-medium">
                 Lokasi acaranya dimana?
               </div>
               <div className="collapse-content">
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p> Telkom University Surabaya</p>
               </div>
             </div>
             <div className="collapse collapse-arrow bg-base-200">
@@ -477,7 +467,7 @@ function Home() {
                 Closing pendaftaran kakpan min?
               </div>
               <div className="collapse-content">
-                <p>19 mei 2024</p>
+                <p>15 mei 2024</p>
               </div>
             </div>
             <div className="collapse collapse-arrow bg-base-200">
