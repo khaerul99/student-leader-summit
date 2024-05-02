@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navbar() {
+function Navbar({showModal ,setShowModal}) {
   return (
     <>
     <div className="navbar bg-[#191919] fixed px-5 z-[999] lg:w-[1280px] max-w-7xl">
@@ -28,7 +28,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn  text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]">Button</a>
+    <button  onClick={() => setShowModal(!showModal)} className="btn  text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]">Button</button>
   </div>
 </div>
     </>

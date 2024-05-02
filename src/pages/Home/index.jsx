@@ -1,11 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../../Layout";
 import { Link } from "react-router-dom";
 import Carousel from "../../components/Carousel";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import Modal from "../../components/Modal";
+
 
 function Home() {
+    const [showModal, setShowModal] = useState(false)
+
   useEffect(() => {
     AOS.init({
       duration: 2000, // values from 0 to 3000, with step 50ms
@@ -14,7 +18,7 @@ function Home() {
     });
   }, []);
   return (
-    <Layout>
+    <Layout  showModal={showModal} setShowModal={setShowModal} >
       <main className="bg-[#191919]">
         <div className="grid grid-cols-1 lg:grid-cols-2 py-32 relative px-5 lg:px-10">
           <div className="absolute bg-[#FF8025] w-[300px] h-[300px] rounded-full opacity-50 bg-opacity-30 blur-2xl top-5 z-0 -left-5" />
