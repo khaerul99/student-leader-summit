@@ -200,7 +200,7 @@ function Home() {
                   data-aos-duration="800"
                 >
                   <img
-                    src="/assets/foto/Nadhif_Basalamah_1.jpg"
+                    src="/assets/foto/image1.jpg"
                     alt=""
                     className="h-full w-full object-cover"
                   />
@@ -212,7 +212,7 @@ function Home() {
                   data-aos-duration="1000"
                 >
                   <img
-                    src="/assets/foto/VINA_MULIANA.jpg"
+                    src="/assets/foto/image2.jpg"
                     alt=""
                     className="h-full w-full object-cover"
                   />
@@ -224,7 +224,7 @@ function Home() {
                   data-aos-duration="900"
                 >
                   <img
-                    src="/assets/foto/Nadhif_Basalamah.jpg"
+                    src="/assets/foto/image3.jpg"
                     alt=""
                     className="h-full w-full object-cover"
                   />
@@ -275,7 +275,10 @@ function Home() {
           </div>
         </div>
 
-        <div className="py-20 px-10 ">
+        <div className="py-20 px-10 relative">
+          <div className="absolute bg-[#FF8025] w-[500px] h-[500px] rounded-full  bg-opacity-30 blur-2xl top-[190px] z-0 left-[360px]" />
+          <div className="absolute bg-[#EE2F37] w-[300px] h-[300px] rounded-full  bg-opacity-30 blur-2xl top-[190px] z-0 left-[360px]" />
+
           <div className="flex justify-center py-20">
             <h1 className="text-white font-bold text-2xl">Featured Speaker</h1>
           </div>
@@ -287,13 +290,13 @@ function Home() {
                     <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 ">
                       <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg">
                         <img
-                          src="/assets/foto/VINA_MULIANA.jpg"
+                          src="/assets/foto/siluet1.png"
                           alt=""
                           className="object-cover h-full w-full"
                         />
                       </div>
                       <div className="text-white">
-                        <p>Vina Andhiani Muliana,S.P.,M.I.Kom</p>
+                        {/* <p>Vina Andhiani Muliana,S.P.,M.I.Kom</p> */}
                       </div>
                     </div>
                   </div>
@@ -303,13 +306,13 @@ function Home() {
                     <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 ">
                       <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg">
                         <img
-                          src="/assets/foto/Nadhif_Basalamah.jpg"
+                          src="/assets/foto/siluet2.png"
                           alt=""
                           className="object-cover h-full w-full"
                         />
                       </div>
                       <div className="text-white">
-                        <p>Nadhif Basalamah</p>
+                        {/* <p>Nadhif Basalamah</p> */}
                       </div>
                     </div>
                   </div>
