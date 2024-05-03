@@ -381,8 +381,8 @@ function Home() {
           <div className="absolute bg-[#EE2F37] w-[100px] h-[100px] rounded-full opacity-50 bg-opacity-30 blur-2xl top-28 z-0 left-5" />
           <div className="absolute bg-[#EE2F37] w-[200px] h-[200px] rounded-full bg-opacity-30 blur-2xl bottom-10 z-0 right-80" />
           <div className="flex justify-center py-10">
-            <h1 className="text-white font-bold text-2xl">
-              What everyone says
+            <h1 className="text-white font-bold text-center text-2xl">
+            Testimoni West Java Student Leader Summit
             </h1>
           </div>
 
