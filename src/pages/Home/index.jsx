@@ -52,7 +52,11 @@ function Home() {
                   </p>
                 </div>
                 <div>
-                  <Link to={"https://www.loket.com/event/east-java-student-leader-summit_Iibc"}>
+                  <Link
+                    to={
+                      "https://www.loket.com/event/east-java-student-leader-summit_Iibc"
+                    }
+                  >
                     <button
                       // onClick={() => setShowModal(!showModal)}
                       className="btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]"
@@ -166,7 +170,16 @@ function Home() {
           </div>
           <div className="  py-20 text-white">
             <p>
-            East Java Student Leader Summit adalah sebuah program unik yang mengumpulkan pelajar Se-Jawa Timur seperti yang sebelumnya sudah dilakukan di Jawa Barat  bersama 1.500 pelajar dari seluruh Jawa Barat antara Forum OSIS Jawa Barat x Telkom University, kini hadir untuk Pelajar Jawa Timur dengan tujuan memberikan mereka pelatihan untuk meningkatkan rasa percaya diri, keterampilan kepemimpinan, serta menjalin ikatan kekeluargaan yang erat. Acara ini juga menjadi platform yang sempurna bagi mereka untuk saling berbagi pengalaman, sehingga mereka bisa siap menghadapi perubahan zaman dengan bijak.
+              East Java Student Leader Summit adalah sebuah program unik yang
+              mengumpulkan pelajar Se-Jawa Timur seperti yang sebelumnya sudah
+              dilakukan di Jawa Barat bersama 1.500 pelajar dari seluruh Jawa
+              Barat antara Forum OSIS Jawa Barat x Telkom University, kini hadir
+              untuk Pelajar Jawa Timur dengan tujuan memberikan mereka pelatihan
+              untuk meningkatkan rasa percaya diri, keterampilan kepemimpinan,
+              serta menjalin ikatan kekeluargaan yang erat. Acara ini juga
+              menjadi platform yang sempurna bagi mereka untuk saling berbagi
+              pengalaman, sehingga mereka bisa siap menghadapi perubahan
+              zaman dengan bijak.
             </p>{" "}
             <br />
             <p>
@@ -242,38 +255,42 @@ function Home() {
                 </p>
               </div>
               <div className="mt-[24px]">
-                <Link to={"https://www.loket.com/event/east-java-student-leader-summit_Iibc"}>
-                <button
-                //   onClick={() => setShowModal(!showModal)}
-                  className="px-[24px] py-[12px] gap-[24px]btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025] rounded-lg h-auto hover:shadow-[#0284C7] shadow-sm flex justify-between"
+                <Link
+                  to={
+                    "https://www.loket.com/event/east-java-student-leader-summit_Iibc"
+                  }
                 >
-                  <label className="text-white">Ikuti Event</label>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-6 h-6 text-white"
+                  <button
+                    //   onClick={() => setShowModal(!showModal)}
+                    className="px-[24px] py-[12px] gap-[24px]btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025] rounded-lg h-auto hover:shadow-[#0284C7] shadow-sm flex justify-between"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-                    />
-                  </svg>
-                </button>
+                    <label className="text-white">Ikuti Event</label>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6 text-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                      />
+                    </svg>
+                  </button>
                 </Link>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="py-20 px-10 relative overflow-hidden">
+        <div className="py-20 px-10 relative overflow-hidden lg:overflow-visible">
           <div className="absolute bg-[#FF8025] w-[300px] h-[300px] top-[450px] left-[120px] lg:w-[500px] lg:h-[500px] rounded-full  bg-opacity-30 blur-2xl lg:top-[190px] z-0 lg:left-[360px]" />
           <div className="absolute bg-[#EE2F37]  w-[300px] h-[300px] top-[450px] left-[50px] lg:w-[300px] lg:h-[300px] rounded-full  bg-opacity-30 blur-2xl lg:top-[190px] z-0 lg:left-[360px]" />
 
-          <div id="speakers"  className="flex justify-center py-20">
+          <div id="speakers" className="flex justify-center py-20">
             <h1 className="text-white font-bold text-2xl">Featured Speaker</h1>
           </div>
           <div className="grid grid-cols-1">
@@ -281,8 +298,9 @@ function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative ">
                 <div className="flex justify-center ">
                   <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
-                    <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 ">
-                      <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg">
+                    <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative overflow-hidden ">
+                      <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
+                      <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg relative">
                         <img
                           src="/assets/foto/siluet1.png"
                           alt=""
@@ -291,14 +309,17 @@ function Home() {
                       </div>
                       <div className="text-white">
                         {/* <p>Vina Andhiani Muliana,S.P.,M.I.Kom</p> */}
+                        <p>???</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="flex justify-center ">
                   <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
-                    <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 ">
-                      <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg">
+                    <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative ">
+                      <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
+
+                      <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg relative">
                         <img
                           src="/assets/foto/siluet2.png"
                           alt=""
@@ -307,6 +328,7 @@ function Home() {
                       </div>
                       <div className="text-white">
                         {/* <p>Nadhif Basalamah</p> */}
+                        <p>???</p>
                       </div>
                     </div>
                   </div>
@@ -319,7 +341,7 @@ function Home() {
         <div className="py-20 px-10  relative ">
           <div className="absolute bg-[#FF8025] w-[200px] h-[200px] rounded-full bg-opacity-30 blur-2xl bottom-10 z-0 right-24" />
 
-          <div id="ketentuan"  className="flex justify-center py-20">
+          <div id="ketentuan" className="flex justify-center py-20">
             <h1 className="text-white font-bold text-2xl">
               Syarat dan ketentuan
             </h1>
@@ -342,9 +364,7 @@ function Home() {
                   (@iggscholarship) <br />
                   (@smbtelkomsurabaya) <br />
                 </li>
-                <li>
-                wajib utk konfirmasi kehadiran,ga usah ngirim bukti nya
-                </li>
+                <li>wajib utk konfirmasi kehadiran</li>
                 <li>Menggunakan PSAS seragam sekolah.</li>
                 <li>Peserta tidak di pungut biaya apapun.</li>
                 <li>Peserta terbuka untuk Pelajar se-Jawa Timur.</li>
@@ -373,7 +393,7 @@ function Home() {
           </div>
         </div>
 
-        <div  id="faq" className="py-20 px-10  ">
+        <div id="faq" className="py-20 px-10  ">
           <div className="py-10 ">
             <h1 className="text-white font-bold text-2xl">
               Frequently asked questions
@@ -438,10 +458,13 @@ function Home() {
             <div className="collapse collapse-arrow bg-base-200">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title text-xl font-medium">
-                Closing pendaftaran kakpan min?
+                Closing pendaftaran kapan min?
               </div>
               <div className="collapse-content">
-                <p>Pendaftaran dapat sewaktu-waktu ditutup jika telah memenuhi kuota. </p>
+                <p>
+                  Pendaftaran dapat sewaktu-waktu ditutup jika telah memenuhi
+                  kuota.{" "}
+                </p>
               </div>
             </div>
             <div className="collapse collapse-arrow bg-base-200">

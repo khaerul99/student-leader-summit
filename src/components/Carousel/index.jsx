@@ -21,7 +21,7 @@ function Carousel() {
                 <p>
                   Acara nya seru banget, ga nyesel deh ikutan, worth it deh buat
                   dana yg di keluarkan Rate dari aku : 1000 / 10 Jangan lupa
-                  ikutan yang 2.0 yaa semua
+                  ikutan yaa semua
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@ function Carousel() {
                   EJSL event terbesar yang pertama kali aku ikuti dengan
                   pertemuan 1500 ketua OSIS se-Jawa Barat dengan para pemateri
                   yang bagus dan juga penampilan-penampilan guest star yang
-                  spektakuler!!! Harus ada wjsls 2.0
+                  spektakuler!!! Harus ada EJSLS
                 </p>
               </div>
             </div>
@@ -69,8 +69,8 @@ function Carousel() {
                   it's not just a mini concert event, many things were gained
                   from this event fr 💯 seneng bisa ketemu ribuan pelajar
                   se-Jawa Timur & ngeliat langsung talkshow ka andovi a.k.a my
-                  fav youtuber since 2018 😍 100/10 sih untuk EJSLS 1.0 ini,
-                  can't wait EJSLS 2.0 🥺 semoga makin pecah 🤍
+                  fav youtuber since 2018 😍 100/10 sih untuk EJSLS ini,
+                  can't wait EJSLS🥺 semoga makin pecah 🤍
                 </p>
               </div>
             </div>
@@ -137,15 +137,15 @@ function Carousel() {
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
-                  aku bingung banget deskripsiin EJSLS 1.0 TAPI YA ACARANYA
+                  aku bingung banget deskripsiin EJSLS TAPI YA ACARANYA
                   SUPER SERUWWW😋❗dann yaaa aku jd makin deket sm (dia) *awww
                   DANN SELAMA PERJALANAN TU AKU NGERASA AMAZE BANGET KAYA IH AKU
                   BAKALAN KONSER BERDUA SM DIA NI?? TERUSS PAS TALKSHOWNYA
                   SERUWWW BANGET APALAGI AKU SAMBIL MAM XIXI dan yang pastinyaa
                   itu sangat worth banget untuk di ikutii aplagi kemarin aku
-                  anggota jadi ada potongann xixi… AKU NUNGGU BANGETTT WJSLS 2.0
+                  anggota jadi ada potongann xixi… AKU NUNGGU BANGETTT EJSLS
                   SIEH😋😋😋 APALAGI NUNGGU KAYA NGELIAT EJSLS 1.0 SEKEREN ITU
-                  GMANA EJSLS 2.0
+                  GMANA EJSLS
                 </p>
               </div>
             </div>
@@ -167,7 +167,7 @@ function Carousel() {
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
-                  Kegiatan EJSLS 1.0 super-duper seru! Selalu terpukau selama
+                  Kegiatan EJSLS super-duper seru! Selalu terpukau selama
                   rangkaian acara berlangsung. Bisa menikmati penampilan tarian
                   tradisional, teater, dan penampilan seru lainnya! Apalagi
                   bagian dimana nyanyi-nyanyi bareng guest star Reza Darmawangsa
@@ -178,7 +178,7 @@ function Carousel() {
                   tahun lalu itu ada stand makanan dan photobooth 360 yang bisa
                   jadi kenangan bareng temen-temen! Gak lupa ada acara talk show
                   bareng Andovi yang tentunya bermanfaat karena bisa sharing
-                  ilmu. Pokoknya banyak benefit yang aku dapetin dari EJSLS 1.0
+                  ilmu. Pokoknya banyak benefit yang aku dapetin dari EJSLS
                 </p>
               </div>
             </div>
@@ -224,7 +224,7 @@ function Carousel() {
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
-                  EJSLS 1.0 seruu pake bangett!!, edukatif dan juga menghibur,
+                  EJSLS seruu pake bangett!!, edukatif dan juga menghibur,
                   dan bisa kenal banyak teman - teman baru it’s such a great
                   things 😉, gak sabar untuk ikut berpatisipasi kembali di EJSLS
                   selanjutnya 🤩‼
