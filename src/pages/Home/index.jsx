@@ -162,7 +162,7 @@ function Home() {
           <div className="flex justify-center">
             <div className="lg:h-[500px] lg:w-[900px] overflow-hidden rounded-xl">
               <img
-                src="assets/poster/Poster_Web.png"
+                src="assets/poster/Poster_Web_4.png"
                 alt=""
                 className="h-full w-full object-cover"
               />
@@ -302,14 +302,13 @@ function Home() {
                       <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
                       <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg relative">
                         <img
-                          src="/assets/foto/siluet1.png"
+                          src="/assets/foto/Highres_Jovial.png"
                           alt=""
                           className="object-cover h-full w-full"
                         />
                       </div>
-                      <div className="text-white">
-                        {/* <p>Vina Andhiani Muliana,S.P.,M.I.Kom</p> */}
-                        <p>???</p>
+                      <div className="text-white  w-[250px] text-center">
+                        <p>Antonino Infloreska Jovialsra da Lopez</p>
                       </div>
                     </div>
                   </div>
@@ -319,14 +318,14 @@ function Home() {
                     <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative ">
                       <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
 
-                      <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg relative">
+                      <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
                         <img
                           src="/assets/foto/siluet2.png"
                           alt=""
                           className="object-cover h-full w-full"
                         />
                       </div>
-                      <div className="text-white">
+                      <div className="text-white w-[250px] text-center">
                         {/* <p>Nadhif Basalamah</p> */}
                         <p>???</p>
                       </div>
@@ -357,17 +356,18 @@ function Home() {
               </div>
             </div>
             <div className="flex justify-center text-white relative">
-              <ul className="list-decimal pl-5">
+              <ul className="list-decimal">
                 <li>
                   Wajib follow media sosial Instagram <br />
-                  (@medpel.id) <br />
-                  (@iggscholarship) <br />
-                  (@smbtelkomsurabaya) <br />
+                  <Link to={"https://www.instagram.com/medpel.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-[#FF8025] cursor-pointer">(@medpel.id)</Link> <br />
+                 <Link to={"https://www.instagram.com/iggscholarship?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-[#FF8025]">(@iggscholarship)</Link> <br />
+                  <Link to={"https://www.instagram.com/smbtelkom.surabaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-[#FF8025]">(@smbtelkomsurabaya)</Link> <br />
                 </li>
-                <li>wajib utk konfirmasi kehadiran</li>
+                <li>Peserta diwajibkan untuk mengupload twibbon</li>
+                <li>Peserta EJSLS 1.0 terbuka untuk Pelajar maupun Umum se-Jawa Timur.</li>
+                <li>wajib untuk konfirmasi kehadiran</li>
                 <li>Menggunakan PSAS seragam sekolah.</li>
                 <li>Peserta tidak di pungut biaya apapun.</li>
-                <li>Peserta terbuka untuk Pelajar se-Jawa Timur.</li>
                 <li>
                   Peserta wajib melakukan pendaftaran tiket melalui link website
                   yang telah di sediakan

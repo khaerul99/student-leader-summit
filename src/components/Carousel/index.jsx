@@ -15,7 +15,7 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Firdaus</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
@@ -38,11 +38,11 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Khaerunisa</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
-                  EJSL event terbesar yang pertama kali aku ikuti dengan
+                  EJSLS event terbesar yang pertama kali aku ikuti dengan
                   pertemuan 1500 ketua OSIS se-Jawa Barat dengan para pemateri
                   yang bagus dan juga penampilan-penampilan guest star yang
                   spektakuler!!! Harus ada EJSLS
@@ -62,13 +62,13 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Khalista</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p className="">
                   it's not just a mini concert event, many things were gained
                   from this event fr 💯 seneng bisa ketemu ribuan pelajar
-                  se-Jawa Timur & ngeliat langsung talkshow ka andovi a.k.a my
+                   & ngeliat langsung talkshow ka andovi a.k.a my
                   fav youtuber since 2018 😍 100/10 sih untuk EJSLS ini,
                   can't wait EJSLS🥺 semoga makin pecah 🤍
                 </p>
@@ -87,7 +87,7 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Khoirul</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
@@ -110,7 +110,7 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Naftali</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
@@ -133,7 +133,7 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Queennela</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
@@ -163,7 +163,7 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Rasya</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
@@ -195,7 +195,7 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Shafwan</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
@@ -220,7 +220,7 @@ function Carousel() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2 className="card-title">Card title!</h2>
+                <h2 className="card-title">Tiara</h2>
               </div>
               <div className="overflow-hidden overflow-y-auto h-[200px] hide-scrollbar">
                 <p>
