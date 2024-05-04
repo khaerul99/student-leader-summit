@@ -364,7 +364,7 @@ function Home() {
                   <Link to={"https://www.instagram.com/smbtelkom.surabaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-[#FF8025]">(@smbtelkomsurabaya)</Link> <br />
                 </li>
                 <li>Peserta diwajibkan untuk mengupload twibbon</li>
-                <li>Peserta EJSLS 1.0 terbuka untuk Pelajar maupun Umum se-Jawa Timur.</li>
+                <li>Peserta EJSLS 1.0 terbuka untuk Pelajar se-Jawa Timur.</li>
                 <li>wajib untuk konfirmasi kehadiran</li>
                 <li>Menggunakan PSAS seragam sekolah.</li>
                 <li>Peserta tidak di pungut biaya apapun.</li>
