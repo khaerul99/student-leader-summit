@@ -17,6 +17,9 @@ function Footer() {
                         <div className='w-[100px] h-[100px] '>
                             <img src="/assets/logo/Logo_TUS.png" alt="" className='w-full h-full object-contain' />
                         </div>
+                        <div className='w-[100px] h-[100px] '>
+                            <img src="/assets/logo/Logo_medpel.png" alt="" className='w-full h-full object-contain' />
+                        </div>
                     </div>
                     </div>
                     <div className='p-5 pr-2'>
