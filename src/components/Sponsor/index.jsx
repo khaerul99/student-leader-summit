@@ -37,8 +37,8 @@ function Sponsor() {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
             {DataSupported && DataSupported.map((e) =>(
-              <div className="h-20 w-20">
-                <img src={e.img} alt="" className="h-full w-full object-contain" />
+              <div className="h-20 w-20 ">
+                <img src={e.img} alt="" className="h-full w-full object-contain hover:scale-105" />
               </div>
             ) )}
             </div>

@@ -43,7 +43,7 @@ function Navbar({showModal ,setShowModal}) {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to={"https://www.loket.com/event/east-java-student-leader-summit-libc"}>
+    <Link to={"https://www.loket.com/event/east-java-student-leader-summit_I7x"}>
     <button  className="btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]">Daftar</button>
     </Link>
    

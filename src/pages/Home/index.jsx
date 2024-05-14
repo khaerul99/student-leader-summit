@@ -55,7 +55,7 @@ function Home() {
                 <div>
                   <Link
                     to={
-                      "https://www.loket.com/event/east-java-student-leader-summit-libc"
+                      "https://www.loket.com/event/east-java-student-leader-summit_I7x"
                     }
                   >
                     <button
@@ -258,7 +258,7 @@ function Home() {
               <div className="mt-[24px]">
                 <Link
                   to={
-                    "https://www.loket.com/event/east-java-student-leader-summit-libc"
+                    "https://www.loket.com/event/east-java-student-leader-summit_I7x"
                   }
                 >
                   <button
@@ -301,33 +301,17 @@ function Home() {
                   <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
                     <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative overflow-hidden ">
                       <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
-                      <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg relative">
-                        <img
-                          src="/assets/foto/Highres_Jovial.png"
-                          alt=""
-                          className="object-cover h-full w-full"
-                        />
-                      </div>
-                      <div className="text-white text-lg w-[250px] text-center">
-                        <p>Antonino Infloreska Jovialsra da Lopez</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex justify-center ">
-                  <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
-                    <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative ">
-                      <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
-
-                      <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
-                        <img
-                          src="/assets/foto/utopia.jpg"
-                          alt=""
-                          className="object-cover h-full w-full"
-                        />
-                      </div>
-                      <div className="text-white text-lg w-[250px] text-center">
-                        <p>Utopia</p>
+                      <div>
+                        <div className="h-[300px]  w-[250px] overflow-hidden rounded-lg relative">
+                          <img
+                            src="/assets/foto/Highres_Jovial.png"
+                            alt=""
+                            className="object-cover h-full w-full"
+                          />
+                        </div>
+                        <div className="text-white text-lg w-[250px] text-center h-[60px] flex justify-center items-center ">
+                          <p>Antonino Infloreska Jovialsra da Lopez</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -336,7 +320,26 @@ function Home() {
                   <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
                     <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative ">
                       <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
-
+                      <div>
+                        <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
+                          <img
+                            src="/assets/foto/utopia.jpg"
+                            alt=""
+                            className="object-cover h-full w-full"
+                          />
+                        </div>
+                        <div className="text-white text-lg w-[250px] text-center h-[60px] flex justify-center items-center">
+                          <p>Utopia</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-center ">
+                  <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
+                    <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative ">
+                      <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
+                      <div>
                       <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
                         <img
                           src="/assets/foto/PRD01193.jpg"
@@ -344,8 +347,9 @@ function Home() {
                           className="object-cover h-full w-full"
                         />
                       </div>
-                      <div className="text-white text-lg w-[250px] text-center">
+                      <div className="text-white text-lg w-[250px] text-center h-[60px] flex justify-center items-center">
                         <p>Anemos</p>
+                      </div>
                       </div>
                     </div>
                   </div>

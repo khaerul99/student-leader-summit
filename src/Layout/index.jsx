@@ -7,7 +7,7 @@ function Layout({ children, showModal, setShowModal }) {
 //   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center bg-[#191919]">
       <Navbar showModal={showModal} setShowModal={setShowModal} />
       <div className="w-[1280px] max-w-7xl">
         <Modal showModal={showModal} setShowModal={setShowModal} />
