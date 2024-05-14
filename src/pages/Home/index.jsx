@@ -340,16 +340,16 @@ function Home() {
                     <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative ">
                       <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
                       <div>
-                      <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
-                        <img
-                          src="/assets/foto/PRD01193.jpg"
-                          alt=""
-                          className="object-cover h-full w-full"
-                        />
-                      </div>
-                      <div className="text-white text-lg w-[250px] text-center h-[60px] flex justify-center items-center">
-                        <p>Anemos</p>
-                      </div>
+                        <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
+                          <img
+                            src="/assets/foto/PRD01193.jpg"
+                            alt=""
+                            className="object-cover h-full w-full"
+                          />
+                        </div>
+                        <div className="text-white text-lg w-[250px] text-center h-[60px] flex justify-center items-center">
+                          <p>Anemos</p>
+                        </div>
                       </div>
                     </div>
                   </div>
