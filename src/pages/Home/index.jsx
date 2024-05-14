@@ -5,6 +5,7 @@ import Carousel from "../../components/Carousel";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import Modal from "../../components/Modal";
+import Sponsor from "../../components/Sponsor";
 
 function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -54,7 +55,7 @@ function Home() {
                 <div>
                   <Link
                     to={
-                      "https://www.loket.com/event/east-java-student-leader-summit_Iibc"
+                      "https://www.loket.com/event/east-java-student-leader-summit-libc"
                     }
                   >
                     <button
@@ -162,7 +163,7 @@ function Home() {
           <div className="flex justify-center">
             <div className="lg:h-[500px] lg:w-[900px] overflow-hidden rounded-xl">
               <img
-                src="assets/poster/Poster_Web_4.png"
+                src="assets/poster/Poster_Web_5.jpg"
                 alt=""
                 className="h-full w-full object-cover"
               />
@@ -257,7 +258,7 @@ function Home() {
               <div className="mt-[24px]">
                 <Link
                   to={
-                    "https://www.loket.com/event/east-java-student-leader-summit_Iibc"
+                    "https://www.loket.com/event/east-java-student-leader-summit-libc"
                   }
                 >
                   <button
@@ -295,7 +296,7 @@ function Home() {
           </div>
           <div className="grid grid-cols-1">
             <div className="flex justify-center">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative ">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 relative ">
                 <div className="flex justify-center ">
                   <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
                     <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative overflow-hidden ">
@@ -307,7 +308,7 @@ function Home() {
                           className="object-cover h-full w-full"
                         />
                       </div>
-                      <div className="text-white  w-[250px] text-center">
+                      <div className="text-white text-lg w-[250px] text-center">
                         <p>Antonino Infloreska Jovialsra da Lopez</p>
                       </div>
                     </div>
@@ -320,14 +321,31 @@ function Home() {
 
                       <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
                         <img
-                          src="/assets/foto/siluet2.png"
+                          src="/assets/foto/utopia.jpg"
                           alt=""
                           className="object-cover h-full w-full"
                         />
                       </div>
-                      <div className="text-white w-[250px] text-center">
-                        {/* <p>Nadhif Basalamah</p> */}
-                        <p>???</p>
+                      <div className="text-white text-lg w-[250px] text-center">
+                        <p>Utopia</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-center ">
+                  <div className="p-[3px]  lg:p-[2px] bg-gradient-to-r from-[#EE2F37] via-[#FF545E] to-[#FF8025] rounded-lg">
+                    <div className=" flex  flex-col gap-2 items-center bg-[#191919] rounded-lg p-5 lg:p-2 relative ">
+                      <div className="absolute bg-[#FF8025] w-[250px] h-[250px] top-[100px] left-[30px] rounded-full  bg-opacity-30 blur-2xl z-0" />
+
+                      <div className="h-[300px] w-[250px] overflow-hidden rounded-lg relative">
+                        <img
+                          src="/assets/foto/PRD01193.jpg"
+                          alt=""
+                          className="object-cover h-full w-full"
+                        />
+                      </div>
+                      <div className="text-white text-lg w-[250px] text-center">
+                        <p>Anemos</p>
                       </div>
                     </div>
                   </div>
@@ -359,9 +377,33 @@ function Home() {
               <ul className="list-decimal">
                 <li>
                   Wajib follow media sosial Instagram <br />
-                  <Link to={"https://www.instagram.com/medpel.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-[#FF8025] cursor-pointer">(@medpel.id)</Link> <br />
-                 <Link to={"https://www.instagram.com/iggscholarship?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-[#FF8025]">(@iggscholarship)</Link> <br />
-                  <Link to={"https://www.instagram.com/smbtelkom.surabaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-[#FF8025]">(@smbtelkomsurabaya)</Link> <br />
+                  <Link
+                    to={
+                      "https://www.instagram.com/medpel.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    }
+                    className="hover:text-[#FF8025] cursor-pointer"
+                  >
+                    (@medpel.id)
+                  </Link>{" "}
+                  <br />
+                  <Link
+                    to={
+                      "https://www.instagram.com/iggscholarship?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    }
+                    className="hover:text-[#FF8025]"
+                  >
+                    (@iggscholarship)
+                  </Link>{" "}
+                  <br />
+                  <Link
+                    to={
+                      "https://www.instagram.com/smbtelkom.surabaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    }
+                    className="hover:text-[#FF8025]"
+                  >
+                    (@smbtelkomsurabaya)
+                  </Link>{" "}
+                  <br />
                 </li>
                 <li>Peserta diwajibkan untuk mengupload twibbon</li>
                 <li>Peserta EJSLS 1.0 terbuka untuk Pelajar se-Jawa Timur.</li>
@@ -382,7 +424,7 @@ function Home() {
           <div className="absolute bg-[#EE2F37] w-[200px] h-[200px] rounded-full bg-opacity-30 blur-2xl bottom-10 z-0 right-80" />
           <div className="flex justify-center py-10">
             <h1 className="text-white font-bold text-center text-2xl">
-            Testimoni West Java Student Leader Summit
+              Testimoni West Java Student Leader Summit
             </h1>
           </div>
 
@@ -476,6 +518,12 @@ function Home() {
                 <p>Free</p>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="py-20 px-10 bg-gray-50 bg-opacity-20">
+          <div className="flex justify-center">
+            <Sponsor />
           </div>
         </div>
       </main>

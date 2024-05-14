@@ -2,6 +2,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar({showModal ,setShowModal}) {
+
+  const handleDownload = () => {
+    // Membuat elemen <a> sementara untuk mengunduh file
+    const link = document.createElement("a");
+    link.href = "assets/pdf/Surat_Und.pdf"; // Menggunakan path langsung ke file PDF
+    link.download = "Surat_Und.pdf"; // Nama file yang akan diunduh
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
     <div className="navbar bg-[#191919] fixed px-5 z-[999] lg:w-[1280px] max-w-7xl">
@@ -13,6 +24,7 @@ function Navbar({showModal ,setShowModal}) {
       <ul tabIndex={0} className=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       <li><a href='#home'>Home</a></li>
       <li><a href='#speakers'>Speaker</a></li>
+      <li><button onClick={handleDownload}>Download surat</button></li>
       <li><a href='#ketentuan'>Syarat & Ketentuan</a></li>
       <li><a href='#faq'>FAQ</a></li>
       </ul>
@@ -25,12 +37,13 @@ function Navbar({showModal ,setShowModal}) {
     <ul className="text-white menu menu-horizontal px-1">
       <li><a href='#home'>Home</a></li>
       <li><a href='#speakers'>Speaker</a></li>
+      <li><button onClick={handleDownload}>Download surat</button></li>
       <li><a href='#ketentuan'>Syarat & Ketentuan</a></li>
       <li><a href='#faq'>FAQ</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to={"https://www.loket.com/event/east-java-student-leader-summit_Iibc"}>
+    <Link to={"https://www.loket.com/event/east-java-student-leader-summit-libc"}>
     <button  className="btn border-none text-white bg-gradient-to-r from-[#EE2F37] to-[#FF8025]">Daftar</button>
     </Link>
    
