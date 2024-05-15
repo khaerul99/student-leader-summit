@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import Modal from "../../components/Modal";
 import Sponsor from "../../components/Sponsor";
+import { linkLoket } from "../../data";
 
 function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -55,7 +56,7 @@ function Home() {
                 <div>
                   <Link
                     to={
-                      "https://www.loket.com/event/east-java-student-leader-summit_I7x"
+                      linkLoket
                     }
                   >
                     <button
@@ -258,7 +259,7 @@ function Home() {
               <div className="mt-[24px]">
                 <Link
                   to={
-                    "https://www.loket.com/event/east-java-student-leader-summit_I7x"
+                    linkLoket
                   }
                 >
                   <button

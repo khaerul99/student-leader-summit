@@ -62,3 +62,5 @@ export const DataMedpart = ([
         img:"assets/medpart/oppal.png"
     },
 ])
+
+export const linkLoket = "https://www.loket.com/event/east-java-student-leader-summit_I78"
